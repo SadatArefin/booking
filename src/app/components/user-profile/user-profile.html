@@ -1,1 +1,165 @@
-<p>user-profile works!</p>
+<div class="min-h-screen bg-green-50 py-12 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-3xl mx-auto">
+    <!-- Profile Header -->
+    <div class="bg-green-800 rounded-t-2xl p-8 text-white shadow-lg">
+      <h1 class="text-3xl font-bold">User Profile</h1>
+      <p class="mt-2 text-green-100">Manage your account information</p>
+    </div>
+
+    <!-- Loading Indicator -->
+    @if (loading$ | async) {
+    <div class="flex justify-center p-6 bg-white">
+      <div
+        class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-green-700"
+      ></div>
+    </div>
+    }
+
+    <!-- Error/Success Messages -->
+    @if (error) {
+    <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-4">
+      <p>{{ error }}</p>
+    </div>
+    } @if (success) {
+    <div
+      class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 mb-4"
+    >
+      <p>{{ success }}</p>
+    </div>
+    }
+
+    <!-- User Info Card -->
+    <div class="bg-white rounded-b-2xl shadow-lg p-8 mb-8">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center">
+        <div
+          class="bg-green-700 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mb-4 sm:mb-0 sm:mr-6"
+        >
+          {{ displayName?.[0]?.toUpperCase() || userEmail?.[0]?.toUpperCase() ||
+          'U' }}
+        </div>
+        <div>
+          <h2 class="text-2xl font-semibold text-gray-800">
+            {{ displayName || 'User' }}
+          </h2>
+          <p class="text-gray-600">{{ userEmail }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Update Profile Form -->
+    <div class="bg-white rounded-2xl shadow-lg p-8 mb-8">
+      <h2
+        class="text-xl font-semibold text-gray-800 mb-6 pb-2 border-b border-gray-200"
+      >
+        Update Display Name
+      </h2>
+
+      <form [formGroup]="profileForm" (ngSubmit)="updateProfile()">
+        <div class="mb-4">
+          <label
+            for="displayName"
+            class="block text-sm font-medium text-gray-700 mb-1"
+            >Display Name</label
+          >
+          <input
+            type="text"
+            id="displayName"
+            formControlName="displayName"
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
+          />
+          @if (profileForm.get('displayName')?.invalid &&
+          profileForm.get('displayName')?.touched) {
+          <div class="text-red-600 text-sm mt-1">
+            Display name must be at least 3 characters
+          </div>
+          }
+        </div>
+
+        <button
+          type="submit"
+          [disabled]="profileForm.invalid || (loading$ | async)"
+          class="w-full bg-green-700 text-white py-2 px-4 rounded-lg hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 disabled:opacity-50"
+        >
+          Update Profile
+        </button>
+      </form>
+    </div>
+
+    <!-- Update Password Form -->
+    <div class="bg-white rounded-2xl shadow-lg p-8">
+      <h2
+        class="text-xl font-semibold text-gray-800 mb-6 pb-2 border-b border-gray-200"
+      >
+        Change Password
+      </h2>
+
+      <form [formGroup]="passwordForm" (ngSubmit)="updatePassword()">
+        <div class="mb-4">
+          <label
+            for="currentPassword"
+            class="block text-sm font-medium text-gray-700 mb-1"
+            >Current Password</label
+          >
+          <input
+            type="password"
+            id="currentPassword"
+            formControlName="currentPassword"
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
+          />
+          @if (passwordForm.get('currentPassword')?.invalid &&
+          passwordForm.get('currentPassword')?.touched) {
+          <div class="text-red-600 text-sm mt-1">
+            Current password is required
+          </div>
+          }
+        </div>
+
+        <div class="mb-4">
+          <label
+            for="newPassword"
+            class="block text-sm font-medium text-gray-700 mb-1"
+            >New Password</label
+          >
+          <input
+            type="password"
+            id="newPassword"
+            formControlName="newPassword"
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
+          />
+          @if (passwordForm.get('newPassword')?.invalid &&
+          passwordForm.get('newPassword')?.touched) {
+          <div class="text-red-600 text-sm mt-1">
+            Password must be at least 6 characters
+          </div>
+          }
+        </div>
+
+        <div class="mb-6">
+          <label
+            for="confirmPassword"
+            class="block text-sm font-medium text-gray-700 mb-1"
+            >Confirm Password</label
+          >
+          <input
+            type="password"
+            id="confirmPassword"
+            formControlName="confirmPassword"
+            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
+          />
+          @if (passwordForm.hasError('passwordMismatch') &&
+          passwordForm.get('confirmPassword')?.touched) {
+          <div class="text-red-600 text-sm mt-1">Passwords do not match</div>
+          }
+        </div>
+
+        <button
+          type="submit"
+          [disabled]="passwordForm.invalid || (loading$ | async)"
+          class="w-full bg-green-700 text-white py-2 px-4 rounded-lg hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 disabled:opacity-50"
+        >
+          Update Password
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

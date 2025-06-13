@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name": "Canopy Kitchen",
+        "location": "Bali, Indonesia",
+        "cuisine": "Indonesian Fusion",
+        "price": "$$",
+        "rating": 4.8,
+        "features": [
+            "Outdoor Seating",
+            "Vegetarian Options",
+            "Organic",
+            "Farm to Table"
+        ],
+        "description": "Dine under a lush jungle canopy with organic, locally-sourced ingredients.",
+        "image": "https://placehold.co/600x400/417D47/FFFFFF?text=Canopy+Kitchen",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Rainforest Café",
+        "location": "Amazon, Brazil",
+        "cuisine": "Brazilian",
+        "price": "$$$",
+        "rating": 4.7,
+        "features": [
+            "Themed Interior",
+            "Live Plants",
+            "Waterfall",
+            "Exotic Cocktails"
+        ],
+        "description": "An immersive dining experience with authentic Brazilian flavors and jungle ambiance.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Rainforest+Café",
+        "availableDates": [
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Green Leaf Bistro",
+        "location": "New York, USA",
+        "cuisine": "International",
+        "price": "$$",
+        "rating": 4.5,
+        "features": [
+            "Rooftop Garden",
+            "Plant-Based Menu",
+            "Craft Cocktails",
+            "Weekend Brunch"
+        ],
+        "description": "Urban oasis with plant-forward cuisine and eco-friendly practices.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Green+Leaf+Bistro",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Bamboo House",
+        "location": "Phuket, Thailand",
+        "cuisine": "Thai",
+        "price": "$$",
+        "rating": 4.9,
+        "features": [
+            "Beachfront",
+            "Bamboo Architecture",
+            "Fresh Seafood",
+            "Cooking Classes"
+        ],
+        "description": "Authentic Thai cuisine served in a stunning bamboo structure overlooking the ocean.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Bamboo+House",
+        "availableDates": [
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18",
+            "2025-06-19"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Wild Spice",
+        "location": "Costa Rica",
+        "cuisine": "Latin American",
+        "price": "$$$",
+        "rating": 4.6,
+        "features": [
+            "Jungle View",
+            "Open Kitchen",
+            "Local Ingredients",
+            "Sustainable Practices"
+        ],
+        "description": "Innovative cuisine with ingredients foraged from Costa Rica's diverse ecosystems.",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Wild+Spice",
+        "availableDates": [
+            "2025-06-17",
+            "2025-06-18",
+            "2025-06-19",
+            "2025-06-20"
+        ]
+    }
+]

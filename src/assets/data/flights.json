@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "airline": "Jungle Airways",
+        "from": "New York, USA",
+        "to": "Bali, Indonesia",
+        "departureDate": "2025-06-15",
+        "returnDate": "2025-06-22",
+        "price": 850,
+        "duration": "18h 30m",
+        "stops": 1,
+        "class": "Economy",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Jungle+Airways"
+    },
+    {
+        "id": 2,
+        "airline": "Rainforest Express",
+        "from": "London, UK",
+        "to": "Amazon, Brazil",
+        "departureDate": "2025-06-16",
+        "returnDate": "2025-06-23",
+        "price": 920,
+        "duration": "12h 15m",
+        "stops": 0,
+        "class": "Economy",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Rainforest+Express"
+    },
+    {
+        "id": 3,
+        "airline": "Tropical Wings",
+        "from": "Paris, France",
+        "to": "Phuket, Thailand",
+        "departureDate": "2025-06-17",
+        "returnDate": "2025-06-24",
+        "price": 780,
+        "duration": "14h 45m",
+        "stops": 1,
+        "class": "Economy",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Tropical+Wings"
+    },
+    {
+        "id": 4,
+        "airline": "Green Canopy Air",
+        "from": "Tokyo, Japan",
+        "to": "Costa Rica",
+        "departureDate": "2025-06-18",
+        "returnDate": "2025-06-25",
+        "price": 1050,
+        "duration": "20h 10m",
+        "stops": 2,
+        "class": "Business",
+        "image": "https://placehold.co/600x400/417D47/FFFFFF?text=Green+Canopy+Air"
+    },
+    {
+        "id": 5,
+        "airline": "Eco Flights",
+        "from": "Sydney, Australia",
+        "to": "Machu Picchu, Peru",
+        "departureDate": "2025-06-19",
+        "returnDate": "2025-06-26",
+        "price": 1120,
+        "duration": "16h 30m",
+        "stops": 1,
+        "class": "Premium Economy",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Eco+Flights"
+    }
+]

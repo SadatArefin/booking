@@ -3,10 +3,13 @@
     <a routerLink="/" class="text-xl font-bold">BookingApp</a>
     <div>
       <ng-container *ngIf="user$ | async as user; else showLogin">
-        <span class="mr-4">Welcome, {{ user.email }}</span>
+        <a routerLink="/profile" class="mr-4 hover:text-beige-100">
+          <span class="mr-1">{{ user.displayName || user.email }}</span>
+          <i class="fas fa-user-circle"></i>
+        </a>
         <button
           (click)="logout()"
-          class="bg-beige-100 text-green-700 px-3 py-1 rounded hover:bg-brown-700 hover:text-white"
+          class="bg-beige-100 text-yellow-900 px-3 py-1 rounded hover:bg-brown-700 hover:text-white"
         >
           Logout
         </button>
@@ -18,4 +21,3 @@
     </div>
   </div>
 </nav>
-<p>navbar works!</p>

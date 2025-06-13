@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "name": "Jungle Canopy Resort",
+        "location": "Bali, Indonesia",
+        "price": 250,
+        "rating": 4.7,
+        "amenities": [
+            "Pool",
+            "Spa",
+            "Free WiFi",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Luxury resort nestled in the heart of Bali's lush jungle.",
+        "image": "https://placehold.co/600x400/417D47/FFFFFF?text=Jungle+Canopy+Resort",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18",
+            "2025-06-19"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Rainforest Retreat",
+        "location": "Amazon, Brazil",
+        "price": 320,
+        "rating": 4.9,
+        "amenities": [
+            "River View",
+            "Eco Tours",
+            "Organic Food",
+            "Yoga Classes"
+        ],
+        "description": "Eco-friendly retreat surrounded by Amazon rainforest.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Rainforest+Retreat",
+        "availableDates": [
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-20",
+            "2025-06-21"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Urban Jungle Loft",
+        "location": "New York, USA",
+        "price": 180,
+        "rating": 4.5,
+        "amenities": [
+            "City View",
+            "Gym",
+            "Business Center",
+            "Rooftop Garden"
+        ],
+        "description": "Modern loft with jungle-inspired design in the heart of NYC.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Urban+Jungle+Loft",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Tropical Paradise Hotel",
+        "location": "Phuket, Thailand",
+        "price": 210,
+        "rating": 4.6,
+        "amenities": [
+            "Beach Access",
+            "Infinity Pool",
+            "Spa",
+            "Water Sports"
+        ],
+        "description": "Beachfront hotel with tropical gardens and stunning ocean views.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Tropical+Paradise",
+        "availableDates": [
+            "2025-06-17",
+            "2025-06-18",
+            "2025-06-19",
+            "2025-06-20"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Wilderness Lodge",
+        "location": "Costa Rica",
+        "price": 290,
+        "rating": 4.8,
+        "amenities": [
+            "Private Bungalow",
+            "Wildlife Tours",
+            "Waterfall Access",
+            "Organic Dining"
+        ],
+        "description": "Secluded lodge in Costa Rica's most biodiverse region.",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Wilderness+Lodge",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-22",
+            "2025-06-23"
+        ]
+    }
+]

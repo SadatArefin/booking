@@ -5,12 +5,13 @@
 export const environment = {
     production: false,
     firebase: {
-        apiKey: "YOUR_API_KEY",
-        authDomain: "YOUR_AUTH_DOMAIN",
-        projectId: "YOUR_PROJECT_ID",
-        storageBucket: "YOUR_STORAGE_BUCKET",
-        messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-        appId: "YOUR_APP_ID"
+        apiKey: "AIzaSyCTCCKcbNjVlhYM-gltKJAJas2VB4WvOyk",
+        authDomain: "booking-site-5d7a0.firebaseapp.com",
+        projectId: "booking-site-5d7a0",
+        storageBucket: "booking-site-5d7a0.firebasestorage.app",
+        messagingSenderId: "390404968973",
+        appId: "1:390404968973:web:5e8529997bf8807538bb44",
+        measurementId: "G-NJLWKRETVX"
     }
 };
 
