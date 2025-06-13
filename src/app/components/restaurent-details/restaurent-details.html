@@ -208,26 +208,15 @@
           </div>
         </div>
 
-        <button
-          (click)="bookNow()"
-          class="mt-6 w-full py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors shadow-md flex items-center justify-center"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5 mr-2"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+        <!-- Book Now Button -->
+        <div class="mt-8 flex justify-end">
+          <button
+            (click)="bookNow()"
+            class="px-8 py-3 bg-green-600 text-white font-semibold rounded-lg shadow hover:bg-green-700 transition-colors text-lg"
           >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-            />
-          </svg>
-          Book a Table
-        </button>
+            Book Now
+          </button>
+        </div>
       </div>
     </div>
   </div>

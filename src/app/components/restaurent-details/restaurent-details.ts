@@ -100,8 +100,11 @@ export class RestaurentDetails implements OnInit {
   }
 
   bookNow(): void {
-    console.log('Booking restaurant:', this.restaurant());
-    // Implement booking logic or navigation to booking page
+    if (this.restaurant()) {
+      this.router.navigate(['/booking-form'], {
+        queryParams: { id: this.restaurant()!.id, type: 'restaurant' }
+      });
+    }
   }
 
   goBack(): void {

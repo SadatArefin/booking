@@ -101,8 +101,11 @@ export class FlightDetails implements OnInit {
   }
 
   bookNow(): void {
-    console.log('Booking flight:', this.flight());
-    // Implement booking logic or navigation to booking page
+    if (this.flight()) {
+      this.router.navigate(['/booking-form'], {
+        queryParams: { id: this.flight()!.id, type: 'flight' }
+      });
+    }
   }
 
   goBack(): void {

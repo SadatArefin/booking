@@ -99,8 +99,11 @@ export class HotelDetails implements OnInit {
   }
 
   bookNow(): void {
-    console.log('Booking hotel:', this.hotel());
-    // Implement booking logic or navigation to booking page
+    if (this.hotel()) {
+      this.router.navigate(['/booking-form'], {
+        queryParams: { id: this.hotel()!.id, type: 'hotel' }
+      });
+    }
   }
 
   goBack(): void {

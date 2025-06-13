@@ -108,4 +108,13 @@ export class Search implements OnInit {
       this.searchForm.patchValue({ maxPrice: value });
     }
   }
+  viewDetails(result: SearchResult): void {
+    if (this.isHotel(result)) {
+      window.location.href = `/hotel/${result.id}`;
+    } else if (this.isFlight(result)) {
+      window.location.href = `/flight/${result.id}`;
+    } else if (this.isRestaurant(result)) {
+      window.location.href = `/restaurant/${result.id}`;
+    }
+  }
 }

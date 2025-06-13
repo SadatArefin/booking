@@ -1,19 +1,19 @@
 [
     {
         "id": 1,
-        "name": "Canopy Kitchen",
-        "location": "Bali, Indonesia",
-        "cuisine": "Indonesian Fusion",
-        "price": "$$",
+        "name": "Bukhara",
+        "location": "Delhi, India",
+        "cuisine": "North Indian",
+        "price": "$$$",
         "rating": 4.8,
         "features": [
-            "Outdoor Seating",
+            "Tandoor",
+            "Fine Dining",
             "Vegetarian Options",
-            "Organic",
-            "Farm to Table"
+            "Award Winning"
         ],
-        "description": "Dine under a lush jungle canopy with organic, locally-sourced ingredients.",
-        "image": "https://placehold.co/600x400/417D47/FFFFFF?text=Canopy+Kitchen",
+        "description": "Legendary restaurant known for its tandoori cuisine.",
+        "image": "https://placehold.co/600x400/1E90FF/FFFFFF?text=Bukhara",
         "availableDates": [
             "2025-06-13",
             "2025-06-14",
@@ -23,19 +23,19 @@
     },
     {
         "id": 2,
-        "name": "Rainforest Café",
-        "location": "Amazon, Brazil",
-        "cuisine": "Brazilian",
-        "price": "$$$",
+        "name": "Din Tai Fung",
+        "location": "Singapore",
+        "cuisine": "Chinese",
+        "price": "$$",
         "rating": 4.7,
         "features": [
-            "Themed Interior",
-            "Live Plants",
-            "Waterfall",
-            "Exotic Cocktails"
+            "Dumplings",
+            "Family Friendly",
+            "Vegetarian Options",
+            "Quick Service"
         ],
-        "description": "An immersive dining experience with authentic Brazilian flavors and jungle ambiance.",
-        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Rainforest+Café",
+        "description": "World-famous for its xiao long bao and noodles.",
+        "image": "https://placehold.co/600x400/FFD700/000000?text=Din+Tai+Fung",
         "availableDates": [
             "2025-06-14",
             "2025-06-15",
@@ -45,19 +45,19 @@
     },
     {
         "id": 3,
-        "name": "Green Leaf Bistro",
-        "location": "New York, USA",
-        "cuisine": "International",
-        "price": "$$",
-        "rating": 4.5,
+        "name": "Gaggan",
+        "location": "Bangkok, Thailand",
+        "cuisine": "Progressive Indian",
+        "price": "$$$$",
+        "rating": 4.9,
         "features": [
-            "Rooftop Garden",
-            "Plant-Based Menu",
-            "Craft Cocktails",
-            "Weekend Brunch"
+            "Tasting Menu",
+            "Modern",
+            "Award Winning",
+            "Vegetarian Options"
         ],
-        "description": "Urban oasis with plant-forward cuisine and eco-friendly practices.",
-        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Green+Leaf+Bistro",
+        "description": "Innovative Indian cuisine in a modern setting.",
+        "image": "https://placehold.co/600x400/008000/FFFFFF?text=Gaggan",
         "availableDates": [
             "2025-06-15",
             "2025-06-16",
@@ -67,46 +67,376 @@
     },
     {
         "id": 4,
-        "name": "Bamboo House",
-        "location": "Phuket, Thailand",
-        "cuisine": "Thai",
-        "price": "$$",
-        "rating": 4.9,
+        "name": "Ministry of Crab",
+        "location": "Colombo, Sri Lanka",
+        "cuisine": "Seafood",
+        "price": "$$$",
+        "rating": 4.8,
         "features": [
-            "Beachfront",
-            "Bamboo Architecture",
-            "Fresh Seafood",
-            "Cooking Classes"
+            "Crab",
+            "Seafood",
+            "Fine Dining",
+            "Award Winning"
         ],
-        "description": "Authentic Thai cuisine served in a stunning bamboo structure overlooking the ocean.",
-        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Bamboo+House",
+        "description": "Celebrated for its fresh Sri Lankan crab dishes.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Ministry+of+Crab",
         "availableDates": [
-            "2025-06-16",
-            "2025-06-17",
-            "2025-06-18",
-            "2025-06-19"
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
         ]
     },
     {
         "id": 5,
-        "name": "Wild Spice",
-        "location": "Costa Rica",
-        "cuisine": "Latin American",
+        "name": "Sushi Masa",
+        "location": "Bangkok, Thailand",
+        "cuisine": "Japanese",
+        "price": "$$$",
+        "rating": 4.7,
+        "features": [
+            "Sushi Bar",
+            "Omakase",
+            "Fresh Seafood",
+            "Intimate Setting"
+        ],
+        "description": "Top-rated sushi restaurant in Bangkok.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Sushi+Masa",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Nasi Kandar Pelita",
+        "location": "Kuala Lumpur, Malaysia",
+        "cuisine": "Malaysian",
+        "price": "$$",
+        "rating": 4.5,
+        "features": [
+            "24 Hours",
+            "Family Friendly",
+            "Local Favorite",
+            "Vegetarian Options"
+        ],
+        "description": "Popular spot for authentic nasi kandar.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Nasi+Kandar+Pelita",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "The Fat Duck",
+        "location": "Mumbai, India",
+        "cuisine": "Modern European",
+        "price": "$$$$",
+        "rating": 4.8,
+        "features": [
+            "Tasting Menu",
+            "Modern",
+            "Award Winning",
+            "Vegetarian Options"
+        ],
+        "description": "Modern European cuisine with a twist.",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Fat+Duck+Mumbai",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Saffron",
+        "location": "Bali, Indonesia",
+        "cuisine": "Indian",
         "price": "$$$",
         "rating": 4.6,
         "features": [
-            "Jungle View",
-            "Open Kitchen",
-            "Local Ingredients",
-            "Sustainable Practices"
+            "Fine Dining",
+            "Vegetarian Options",
+            "Sea View",
+            "Romantic"
         ],
-        "description": "Innovative cuisine with ingredients foraged from Costa Rica's diverse ecosystems.",
-        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Wild+Spice",
+        "description": "Elegant Indian restaurant with sea views.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Saffron+Bali",
         "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "The Local",
+        "location": "Phuket, Thailand",
+        "cuisine": "Thai",
+        "price": "$$",
+        "rating": 4.7,
+        "features": [
+            "Authentic",
+            "Family Friendly",
+            "Vegetarian Options",
+            "Local Favorite"
+        ],
+        "description": "Authentic Thai cuisine in a casual setting.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=The+Local+Phuket",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
             "2025-06-17",
-            "2025-06-18",
-            "2025-06-19",
-            "2025-06-20"
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Baan Khanitha",
+        "location": "Bangkok, Thailand",
+        "cuisine": "Thai",
+        "price": "$$$",
+        "rating": 4.8,
+        "features": [
+            "Fine Dining",
+            "Garden Setting",
+            "Vegetarian Options",
+            "Award Winning"
+        ],
+        "description": "Award-winning Thai restaurant with garden views.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Baan+Khanitha",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "The Lagoon",
+        "location": "Colombo, Sri Lanka",
+        "cuisine": "Seafood",
+        "price": "$$$",
+        "rating": 4.7,
+        "features": [
+            "Seafood",
+            "Fine Dining",
+            "Vegetarian Options",
+            "Romantic"
+        ],
+        "description": "Seafood restaurant with lagoon views.",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Lagoon+Colombo",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Sushi Tei",
+        "location": "Jakarta, Indonesia",
+        "cuisine": "Japanese",
+        "price": "$$",
+        "rating": 4.5,
+        "features": [
+            "Sushi Bar",
+            "Family Friendly",
+            "Vegetarian Options",
+            "Quick Service"
+        ],
+        "description": "Popular Japanese chain in Indonesia.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Sushi+Tei+Jakarta",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "The Sky Room",
+        "location": "Dhaka, Bangladesh",
+        "cuisine": "International",
+        "price": "$$$",
+        "rating": 4.6,
+        "features": [
+            "Rooftop",
+            "City View",
+            "Vegetarian Options",
+            "Romantic"
+        ],
+        "description": "Rooftop restaurant with panoramic city views.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Sky+Room+Dhaka",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Le Du",
+        "location": "Bangkok, Thailand",
+        "cuisine": "Modern Thai",
+        "price": "$$$",
+        "rating": 4.9,
+        "features": [
+            "Tasting Menu",
+            "Modern",
+            "Award Winning",
+            "Vegetarian Options"
+        ],
+        "description": "Modern Thai cuisine with a creative twist.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Le+Du+Bangkok",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "The Black Sheep",
+        "location": "Manila, Philippines",
+        "cuisine": "Filipino",
+        "price": "$$$",
+        "rating": 4.7,
+        "features": [
+            "Modern",
+            "Fine Dining",
+            "Vegetarian Options",
+            "Award Winning"
+        ],
+        "description": "Modern Filipino cuisine in a stylish setting.",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Black+Sheep+Manila",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "MTR 1924",
+        "location": "Bangalore, India",
+        "cuisine": "South Indian",
+        "price": "$$",
+        "rating": 4.6,
+        "features": [
+            "Vegetarian",
+            "Historic",
+            "Family Friendly",
+            "Quick Service"
+        ],
+        "description": "Historic vegetarian restaurant in Bangalore.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=MTR+1924",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Soi 38",
+        "location": "Bangkok, Thailand",
+        "cuisine": "Thai Street Food",
+        "price": "$",
+        "rating": 4.5,
+        "features": [
+            "Street Food",
+            "Casual",
+            "Vegetarian Options",
+            "Local Favorite"
+        ],
+        "description": "Famous street food market in Bangkok.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Soi+38+Bangkok",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "The Blue Elephant",
+        "location": "Phuket, Thailand",
+        "cuisine": "Royal Thai",
+        "price": "$$$",
+        "rating": 4.8,
+        "features": [
+            "Fine Dining",
+            "Historic Building",
+            "Vegetarian Options",
+            "Award Winning"
+        ],
+        "description": "Royal Thai cuisine in a historic mansion.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Blue+Elephant+Phuket",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "The Tasting Room",
+        "location": "Macau, China",
+        "cuisine": "French",
+        "price": "$$$$",
+        "rating": 4.9,
+        "features": [
+            "Tasting Menu",
+            "Modern",
+            "Award Winning",
+            "Vegetarian Options"
+        ],
+        "description": "Michelin-starred French restaurant in Macau.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Tasting+Room+Macau",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "The Sky Lounge",
+        "location": "Kathmandu, Nepal",
+        "cuisine": "International",
+        "price": "$$$",
+        "rating": 4.6,
+        "features": [
+            "Rooftop",
+            "Mountain View",
+            "Vegetarian Options",
+            "Romantic"
+        ],
+        "description": "Rooftop lounge with mountain views in Kathmandu.",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Sky+Lounge+Kathmandu",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
         ]
     }
 ]

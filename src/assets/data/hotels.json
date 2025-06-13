@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "name": "Jungle Canopy Resort",
-        "location": "Bali, Indonesia",
-        "price": 250,
+        "name": "The Oberoi Grand",
+        "location": "Kolkata, India",
+        "price": 180,
         "rating": 4.7,
         "amenities": [
             "Pool",
@@ -12,8 +12,8 @@
             "Restaurant",
             "Bar"
         ],
-        "description": "Luxury resort nestled in the heart of Bali's lush jungle.",
-        "image": "https://placehold.co/600x400/417D47/FFFFFF?text=Jungle+Canopy+Resort",
+        "description": "Historic luxury hotel in the heart of Kolkata.",
+        "image": "https://placehold.co/600x400/1E90FF/FFFFFF?text=Oberoi+Grand",
         "availableDates": [
             "2025-06-15",
             "2025-06-16",
@@ -24,18 +24,19 @@
     },
     {
         "id": 2,
-        "name": "Rainforest Retreat",
-        "location": "Amazon, Brazil",
-        "price": 320,
+        "name": "Marina Bay Sands",
+        "location": "Singapore",
+        "price": 350,
         "rating": 4.9,
         "amenities": [
-            "River View",
-            "Eco Tours",
-            "Organic Food",
-            "Yoga Classes"
+            "Infinity Pool",
+            "SkyPark",
+            "Casino",
+            "Spa",
+            "Fine Dining"
         ],
-        "description": "Eco-friendly retreat surrounded by Amazon rainforest.",
-        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Rainforest+Retreat",
+        "description": "Iconic hotel with rooftop infinity pool and city views.",
+        "image": "https://placehold.co/600x400/FFD700/000000?text=Marina+Bay+Sands",
         "availableDates": [
             "2025-06-14",
             "2025-06-15",
@@ -46,18 +47,19 @@
     },
     {
         "id": 3,
-        "name": "Urban Jungle Loft",
-        "location": "New York, USA",
-        "price": 180,
-        "rating": 4.5,
+        "name": "Shangri-La Hotel",
+        "location": "Bangkok, Thailand",
+        "price": 220,
+        "rating": 4.8,
         "amenities": [
-            "City View",
-            "Gym",
-            "Business Center",
-            "Rooftop Garden"
+            "River View",
+            "Spa",
+            "Pool",
+            "Fitness Center",
+            "Restaurant"
         ],
-        "description": "Modern loft with jungle-inspired design in the heart of NYC.",
-        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Urban+Jungle+Loft",
+        "description": "Luxury riverside hotel in central Bangkok.",
+        "image": "https://placehold.co/600x400/008000/FFFFFF?text=Shangri-La+Bangkok",
         "availableDates": [
             "2025-06-13",
             "2025-06-14",
@@ -67,18 +69,19 @@
     },
     {
         "id": 4,
-        "name": "Tropical Paradise Hotel",
-        "location": "Phuket, Thailand",
-        "price": 210,
-        "rating": 4.6,
+        "name": "Mandarin Oriental",
+        "location": "Kuala Lumpur, Malaysia",
+        "price": 260,
+        "rating": 4.7,
         "amenities": [
-            "Beach Access",
-            "Infinity Pool",
+            "City View",
             "Spa",
-            "Water Sports"
+            "Pool",
+            "Fine Dining",
+            "Bar"
         ],
-        "description": "Beachfront hotel with tropical gardens and stunning ocean views.",
-        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Tropical+Paradise",
+        "description": "Elegant hotel next to the Petronas Towers.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Mandarin+Oriental+KL",
         "availableDates": [
             "2025-06-17",
             "2025-06-18",
@@ -88,24 +91,354 @@
     },
     {
         "id": 5,
-        "name": "Wilderness Lodge",
-        "location": "Costa Rica",
-        "price": 290,
-        "rating": 4.8,
+        "name": "Taj Exotica Resort & Spa",
+        "location": "Goa, India",
+        "price": 300,
+        "rating": 4.9,
         "amenities": [
-            "Private Bungalow",
-            "Wildlife Tours",
-            "Waterfall Access",
-            "Organic Dining"
+            "Beach Access",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
         ],
-        "description": "Secluded lodge in Costa Rica's most biodiverse region.",
-        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Wilderness+Lodge",
+        "description": "Beachfront luxury resort in South Goa.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Taj+Exotica+Goa",
         "availableDates": [
             "2025-06-13",
             "2025-06-14",
             "2025-06-15",
-            "2025-06-22",
-            "2025-06-23"
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "The Leela Palace",
+        "location": "Chennai, India",
+        "price": 210,
+        "rating": 4.8,
+        "amenities": [
+            "Sea View",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Opulent hotel with sea views in Chennai.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Leela+Palace+Chennai",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "The Fullerton Hotel",
+        "location": "Singapore",
+        "price": 270,
+        "rating": 4.7,
+        "amenities": [
+            "Heritage Building",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Heritage hotel in Singapore's business district.",
+        "image": "https://placehold.co/600x400/417D47/FFFFFF?text=Fullerton+Hotel",
+        "availableDates": [
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "The Westin Dhaka",
+        "location": "Dhaka, Bangladesh",
+        "price": 190,
+        "rating": 4.6,
+        "amenities": [
+            "City View",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Modern hotel in Dhaka's business district.",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Westin+Dhaka",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Amari Watergate",
+        "location": "Bangkok, Thailand",
+        "price": 160,
+        "rating": 4.5,
+        "amenities": [
+            "City Center",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Contemporary hotel in central Bangkok.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Amari+Watergate",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Grand Hyatt Jakarta",
+        "location": "Jakarta, Indonesia",
+        "price": 230,
+        "rating": 4.7,
+        "amenities": [
+            "City View",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Luxury hotel in Jakarta's business district.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Grand+Hyatt+Jakarta",
+        "availableDates": [
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "The St. Regis Bali Resort",
+        "location": "Bali, Indonesia",
+        "price": 400,
+        "rating": 4.9,
+        "amenities": [
+            "Beachfront",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Exclusive beachfront resort in Bali.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=St+Regis+Bali",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Vivanta Kathmandu",
+        "location": "Kathmandu, Nepal",
+        "price": 140,
+        "rating": 4.4,
+        "amenities": [
+            "Mountain View",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Modern hotel with mountain views in Kathmandu.",
+        "image": "https://placehold.co/600x400/417D47/FFFFFF?text=Vivanta+Kathmandu",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Taj Samudra",
+        "location": "Colombo, Sri Lanka",
+        "price": 200,
+        "rating": 4.6,
+        "amenities": [
+            "Sea View",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Seaside luxury hotel in Colombo.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Taj+Samudra",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Pan Pacific Yangon",
+        "location": "Yangon, Myanmar",
+        "price": 170,
+        "rating": 4.5,
+        "amenities": [
+            "City View",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Modern hotel in downtown Yangon.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Pan+Pacific+Yangon",
+        "availableDates": [
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "The Peninsula Manila",
+        "location": "Manila, Philippines",
+        "price": 210,
+        "rating": 4.7,
+        "amenities": [
+            "City Center",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Landmark hotel in Makati, Manila.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Peninsula+Manila",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "The Westin Resort Nusa Dua",
+        "location": "Bali, Indonesia",
+        "price": 280,
+        "rating": 4.8,
+        "amenities": [
+            "Beachfront",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Family-friendly beachfront resort in Bali.",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Westin+Nusa+Dua",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Hotel Yak & Yeti",
+        "location": "Kathmandu, Nepal",
+        "price": 130,
+        "rating": 4.3,
+        "amenities": [
+            "Heritage Property",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Historic hotel in central Kathmandu.",
+        "image": "https://placehold.co/600x400/5A8050/FFFFFF?text=Yak+%26+Yeti",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Centara Grand at CentralWorld",
+        "location": "Bangkok, Thailand",
+        "price": 190,
+        "rating": 4.6,
+        "amenities": [
+            "City Center",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Modern hotel in Bangkok's shopping district.",
+        "image": "https://placehold.co/600x400/3C644E/FFFFFF?text=Centara+Grand",
+        "availableDates": [
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "The Park Hyderabad",
+        "location": "Hyderabad, India",
+        "price": 160,
+        "rating": 4.4,
+        "amenities": [
+            "Lake View",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Contemporary hotel overlooking Hussain Sagar Lake.",
+        "image": "https://placehold.co/600x400/2E5C3E/FFFFFF?text=Park+Hyderabad",
+        "availableDates": [
+            "2025-06-15",
+            "2025-06-16",
+            "2025-06-17",
+            "2025-06-18"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "The Imperial New Delhi",
+        "location": "Delhi, India",
+        "price": 320,
+        "rating": 4.9,
+        "amenities": [
+            "Heritage Property",
+            "Spa",
+            "Pool",
+            "Restaurant",
+            "Bar"
+        ],
+        "description": "Iconic luxury hotel in central Delhi.",
+        "image": "https://placehold.co/600x400/4A7342/FFFFFF?text=Imperial+Delhi",
+        "availableDates": [
+            "2025-06-13",
+            "2025-06-14",
+            "2025-06-15",
+            "2025-06-16"
         ]
     }
 ]
