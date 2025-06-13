@@ -1,0 +1,51 @@
+<div class="min-h-screen flex items-center justify-center bg-beige-100">
+  <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+    <h2 class="text-3xl font-bold text-center text-green-700 mb-6">Sign In</h2>
+    <form (ngSubmit)="onSubmit()" #signInForm="ngForm">
+      <div class="mb-4">
+        <label for="email" class="block text-sm font-medium text-brown-700"
+          >Email</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          [(ngModel)]="email"
+          required
+          class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm"
+        />
+      </div>
+      <div class="mb-6">
+        <label for="password" class="block text-sm font-medium text-brown-700"
+          >Password</label
+        >
+        <input
+          type="password"
+          id="password"
+          name="password"
+          [(ngModel)]="password"
+          required
+          class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm"
+        />
+      </div>
+      <button
+        type="submit"
+        [disabled]="!signInForm.form.valid"
+        class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 disabled:opacity-50"
+      >
+        Sign In
+      </button>
+      <p class="mt-4 text-center text-sm text-brown-600">
+        Don't have an account?
+        <a
+          routerLink="/register"
+          class="font-medium text-green-600 hover:text-green-500"
+          >Register here</a
+        >
+      </p>
+    </form>
+    <div *ngIf="errorMessage" class="mt-4 text-center text-red-500">
+      {{ errorMessage }}
+    </div>
+  </div>
+</div>
