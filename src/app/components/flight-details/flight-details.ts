@@ -49,7 +49,7 @@ export class FlightDetails implements OnInit {
   }
   fetchFlightDetails(id: string): void {
     this.loading.set(true);
-    this.http.get<Flight[]>('assets/data/flights.json')
+    this.http.get<Flight[]>('/assets/data/flights.json')
       .subscribe({
         next: (flights) => {
           const flight = flights.find(f => f.id === parseInt(id));

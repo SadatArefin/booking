@@ -7,7 +7,7 @@ import { SearchFilters, SearchResult, Hotel, Flight, Restaurant } from '../../mo
 
 @Component({
   selector: 'app-search',
-  standalone: true, imports: [CommonModule, FormsModule, ReactiveFormsModule, HttpClientModule],
+  standalone: true, imports: [CommonModule, FormsModule, ReactiveFormsModule],
   templateUrl: './search.html',
   providers: [SearchService]
 })
@@ -109,12 +109,11 @@ export class Search implements OnInit {
     }
   }
   viewDetails(result: SearchResult): void {
-    if (this.isHotel(result)) {
+    if (this.isHotel(result))
       window.location.href = `/hotel/${result.id}`;
-    } else if (this.isFlight(result)) {
+    else if (this.isFlight(result))
       window.location.href = `/flight/${result.id}`;
-    } else if (this.isRestaurant(result)) {
+    else if (this.isRestaurant(result))
       window.location.href = `/restaurant/${result.id}`;
-    }
   }
 }

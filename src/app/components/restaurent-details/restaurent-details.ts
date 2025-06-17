@@ -48,7 +48,7 @@ export class RestaurentDetails implements OnInit {
   }
   fetchRestaurantDetails(id: string): void {
     this.loading.set(true);
-    this.http.get<Restaurant[]>('assets/data/restaurants.json')
+    this.http.get<Restaurant[]>('/assets/data/restaurants.json')
       .subscribe({
         next: (restaurants) => {
           const restaurant = restaurants.find(r => r.id === parseInt(id));

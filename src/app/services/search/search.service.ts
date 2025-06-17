@@ -31,7 +31,7 @@ export class SearchService {
         if (this.dataLoaded.hotels) {
             return of(this.hotelsData);
         }
-        return this.http.get<Hotel[]>('assets/data/hotels.json').pipe(
+        return this.http.get<Hotel[]>('/assets/data/hotels.json').pipe(
             map(data => {
                 this.hotelsData = data;
                 this.dataLoaded.hotels = true;
@@ -48,7 +48,7 @@ export class SearchService {
         if (this.dataLoaded.flights) {
             return of(this.flightsData);
         }
-        return this.http.get<Flight[]>('assets/data/flights.json').pipe(
+        return this.http.get<Flight[]>('/assets/data/flights.json').pipe(
             map(data => {
                 this.flightsData = data;
                 this.dataLoaded.flights = true;
@@ -65,7 +65,7 @@ export class SearchService {
         if (this.dataLoaded.restaurants) {
             return of(this.restaurantsData);
         }
-        return this.http.get<Restaurant[]>('assets/data/restaurants.json').pipe(
+        return this.http.get<Restaurant[]>('/assets/data/restaurants.json').pipe(
             map(data => {
                 this.restaurantsData = data;
                 this.dataLoaded.restaurants = true;

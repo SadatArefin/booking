@@ -47,7 +47,7 @@ export class HotelDetails implements OnInit {
   }
   fetchHotelDetails(id: string): void {
     this.loading.set(true);
-    this.http.get<Hotel[]>('assets/data/hotels.json')
+    this.http.get<Hotel[]>('/assets/data/hotels.json')
       .subscribe({
         next: (hotels) => {
           const hotel = hotels.find(h => h.id === parseInt(id));
