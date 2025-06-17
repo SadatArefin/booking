@@ -1,6 +1,22 @@
 # Booking
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
+This project is a booking application built with Angular. It allows users to search and book flights, hotels, and restaurants.
+
+## Features
+
+- User authentication (register/sign-in)
+- Search functionality for flights, hotels, and restaurants
+- Booking management (view booking history, cancel bookings)
+- User profile management
+- Payment integration
+- Notifications
+
+## Future Enhancements
+
+- Integration with analytics services
+- Review and rating system
+- Real-time tracking of bookings
+- Admin panel for managing users and bookings
 
 ## Development server
 
